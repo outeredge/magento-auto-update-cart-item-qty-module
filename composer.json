@@ -1,0 +1,24 @@
+{
+    "name": "outeredge/magento-auto-update-cart-item-qty-module",
+    "description": "Magento Auto Update Cart Item Qty Module by outer/edge",
+    "type": "magento2-module",
+    "license": [
+        "MIT"
+    ],
+    "authors": [
+        {
+            "name": "outer/edge",
+            "email": "hello@outeredgeuk.com",
+            "homepage": "https://outeredgeuk.com/",
+            "role": "Developer"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "OuterEdge\\AutoUpdateCartItemQty\\": ""
+        }
+    }
+}
